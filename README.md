@@ -15,6 +15,6 @@ The resulting image can be run using [Docker](http://docker.io).
 The versions currently supported are:
 
 - 2.7
-- 3.3
+- 3.3 (deprecated)
 - 3.4
 - 3.5
