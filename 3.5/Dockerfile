@@ -1,6 +1,5 @@
-# This image provides a Python 3.5 environment you can use to run your Python
-# applications.
-FROM centos/s2i-base-centos7
+FROM ausnimbus/s2i-base
+MAINTAINER AusNimbus <support@ausnimbus.com.au>
 
 MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
 
