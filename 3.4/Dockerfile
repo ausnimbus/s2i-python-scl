@@ -1,7 +1,6 @@
-FROM ausnimbus/s2i-base
-MAINTAINER AusNimbus <support@ausnimbus.com.au>
+FROM quay.io/ausnimbus/s2i-base-scl
 
-MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
+MAINTAINER AusNimbus <support@ausnimbus.com.au>
 
 EXPOSE 8080
 
