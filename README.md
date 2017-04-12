@@ -1,20 +1,20 @@
-# Python (SCL) S2I Docker images
+# Python (SCL) S2I Builder
 
 [![Build Status](https://travis-ci.org/ausnimbus/s2i-python-scl.svg?branch=master)](https://travis-ci.org/ausnimbus/s2i-python-scl)
+[![Docker Repository on Quay](https://quay.io/repository/ausnimbus/s2i-python-scl/status "Docker Repository on Quay")](https://quay.io/repository/ausnimbus/s2i-python-scl)
 
-This repository contains the source for building various versions of
-the Python application as a reproducible Docker image
-[source-to-image](https://github.com/openshift/source-to-image)
-to be run on [AusNimbus](https://www.ausnimbus.com.au/).
+This repository contains the source for the [source-to-image](https://github.com/openshift/source-to-image)
+builders used to deploy [Python applications](https://www.ausnimbus.com.au/languages/python/)
+on [AusNimbus](https://www.ausnimbus.com.au/).
 
-Images are built with Python RPM packages from SCL.
-The resulting image can be run using [Docker](http://docker.io).
+The builders are built using Python binaries from [SCL](https://www.softwarecollections.org/en/)
+
+If you are interested in using the latest Python versions, use [s2i-python](https://github.com/ausnimbus/s2i-python)
 
 ## Versions
 
 The versions currently supported are:
 
 - 2.7
-- 3.3 (deprecated)
 - 3.4
 - 3.5
